@@ -8,7 +8,7 @@ EXTENSIONS = {
   "php" => ".php",
   "node" => ".js",
   "coffee" => ".coffee",
-  "io", => ".io"
+  "io" => ".io"
 }
 
 def debug_puts(*args)
