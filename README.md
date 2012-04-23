@@ -7,9 +7,7 @@ This program generates error quines by starting with some seed text in the form 
 
 ##Usage
 
-error-quine-generator.rb requires Ruby 1.9.
-
-    $ ruby error-quine-generator.rb 
+    $ ruby error-quine-generator.rb
     usage: error-quine-generator.rb [-v] <language> [<max iterations> <seed text>]
 
     <language>        The name of the interpreter to use

@@ -1,7 +1,5 @@
 #!/usr/bin/env ruby
 
-require 'open3'
-
 EXTENSIONS = {
   "ruby" => ".rb",
   "python" => ".py",
@@ -27,7 +25,7 @@ def generate_quine(language, input)
     f.puts(input)
     f.close
 
-    output, _ = Open3.capture2e("#{language} #{f.path}")
+    output = `#{language} #{f.path} 2>&1`
   end
 
   output
