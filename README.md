@@ -30,6 +30,10 @@ Perl doesn't work because it tries to continue parsing after finding an error le
 
 PHP is super cheap because anything not inside `<?php ... ?>` just outputs itself.
 
+##Credits
+
+The original idea for this came from [Harold Cooper](https://github.com/hrldcpr).
+
 ##Copyright
 
 `error-quine-generator.rb` was written by David Albert and is released to the Public Domain. See https://creativecommons.org/publicdomain/zero/1.0/ for more.
