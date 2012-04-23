@@ -38,6 +38,8 @@ PHP really feels like cheating because anything not inside `<?php ... ?>` just e
 
 This project was inspired by [Harold Cooper](https://github.com/hrldcpr).
 
+I made this at [Hacker School](https://www.hackerschool.com).
+
 ##Copyright
 
 `error-quine-generator.rb` was written by David Albert and is released to the Public Domain. See https://creativecommons.org/publicdomain/zero/1.0/ for more info.
