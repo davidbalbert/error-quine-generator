@@ -24,7 +24,9 @@ The result is saved to `/tmp/quine.extension`. E.g. `ruby error-quine-generator.
 
 ##Languages
 
-Filetype extensions are hardcoded into `error-quine-generator.rb`. It includes support for ruby, python, awk, perl, and php. Other interpreters will work but their output will be in `/tmp/quine` with no extension.
+Filetype extensions are hardcoded into `error-quine-generator.rb`. It includes support for ruby, python, awk, perl, php, and node. Other interpreters will work but their output will be in `/tmp/quine` with no extension.
+
+I have found this to work with ruby, python, awk, php, and node. If you know other languages that work, please let me know.
 
 Perl doesn't work because it tries to continue parsing after finding an error leading to ever growing output.
 

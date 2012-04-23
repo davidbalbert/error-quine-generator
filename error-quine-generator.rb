@@ -7,7 +7,8 @@ EXTENSIONS = {
   "python" => ".py",
   "awk" => ".awk",
   "perl" => ".pl",
-  "php" => ".php"
+  "php" => ".php",
+  "node" => ".js"
 }
 
 def debug_puts(*args)
